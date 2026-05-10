@@ -1,7 +1,7 @@
 # ft_onion 
 
 ## **Description**
-This project sets up a **Tor hidden service** running inside a secured Docker container with **Nginx** for web hosting and **SSH access**. The website hosted is called **Slate Notes**, which is a platform where users can write and store secret notes securely. This setup ensures that all communications are anonymized and protected, allowing users to maintain their privacy while managing their sensitive information.<br /><br />
+This project deploys a secure **Tor hidden service** inside an isolated Docker container using Nginx for web hosting and optional SSH access for remote administration. The environment is designed to host privacy-focused web applications while ensuring that all communications remain encrypted, anonymized, and resistant to external exposure. By combining containerization with Tor’s hidden service architecture, the setup provides a lightweight and secure infrastructure for hosting sensitive or privacy-centric services.
 
 It supports **two modes**:  
 1. **Persistent mode**: Keeps the same `.onion` address across restarts.  
