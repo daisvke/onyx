@@ -1,4 +1,4 @@
-# ft_onion 
+# Onyx: Dockerized Tor Hidden Service Infrastructure
 
 ## **Description**
 This project deploys a secure **Tor hidden service** inside an isolated Docker container using Nginx for web hosting and optional SSH access for remote administration. The environment is designed to host privacy-focused web applications while ensuring that all communications remain encrypted, anonymized, and resistant to external exposure. By combining containerization with Tor’s hidden service architecture, the setup provides a lightweight and secure infrastructure for hosting sensitive or privacy-centric services.
@@ -8,6 +8,9 @@ It supports **two modes**:
 2. **Non-persistent mode**: Generates a new `.onion` address each time.  
 
 ![Slate Note](screenshots/slate_note.png)
+
+(Example with `Slate Notes`, a note-sharing platform)
+
 ---
 
 ## **Setup instructions**
@@ -19,8 +22,8 @@ It supports **two modes**:
 
 ### **1. Clone the repository**
 ```sh
-git clone https://github.com/daisvke/ft_onion.git
-cd ft_onion
+git clone https://github.com/daisvke/onyx.git
+cd onyx
 ```
 
 ### **2. Configure environment**
